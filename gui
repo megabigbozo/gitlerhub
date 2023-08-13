@@ -334,7 +334,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         YesIcon.BackgroundTransparency = 1.000
         YesIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
         YesIcon.Size = UDim2.new(0, 20, 0, 20)
-        YesIcon.Image = "rbxassetid://7072706620"
+        YesIcon.Image = "rbxassetid://14421095988"
         
         Animate:CreateGradient(YesButton)
         
@@ -363,7 +363,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         NoIcon.BackgroundTransparency = 1.000
         NoIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
         NoIcon.Size = UDim2.new(0, 20, 0, 20)
-        NoIcon.Image = "rbxassetid://7072725342"
+        NoIcon.Image = "rbxassetid://14421095988"
         
         BarFrame.Name = "BarFrame"
         BarFrame.Parent = Template
@@ -992,7 +992,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 IconDisable.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 IconDisable.Size = UDim2.new(0, 23, 0, 23)
                 IconDisable.ZIndex = 2
-                IconDisable.Image = "rbxassetid://3926309567"
+                IconDisable.Image = "rbxassetid://14421095988"
                 IconDisable.ImageColor3 = themes.TextColor
                 Objects[IconDisable] = "TextColor"
                 IconDisable.ImageRectOffset = Vector2.new(628, 420)
@@ -1113,7 +1113,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 ArrowIcon.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 ArrowIcon.Size = UDim2.new(0, 23, 0, 23)
                 ArrowIcon.ZIndex = 2
-                ArrowIcon.Image = "rbxassetid://7072706663"
+                ArrowIcon.Image = "rbxassetid://14421095988"
                 ArrowIcon.ImageColor3 = themes.TextColor
                 Objects[ArrowIcon] = "TextColor"
                 
