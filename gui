@@ -145,7 +145,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         TextColor = Color3.fromRGB(255, 255, 255),
         Header = Color3.fromRGB(22, 22, 22),
         Container = Color3.fromRGB(34, 34, 34),
-        Background = Color3.fromRGB(225, 204, 255),
+        Background = Color3.fromRGB(128, 128, 128),
         Slider = Color3.fromRGB(15, 15, 15),
         Drop = Color3.fromRGB(28, 28, 28),
         ScrollBar = Color3.fromRGB(149, 149, 149),
