@@ -151,7 +151,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
         Glow = Color3.fromRGB(79, 195, 247),
-        Logo = "rbxassetid://7409401226"
+        Logo = "https://cdn.discordapp.com/attachments/1122923513100107856/1140266505515319327/Adel_Hub.png"
     }
 
     table.insert(CFAHub, title)
