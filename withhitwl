@@ -1,0 +1,47 @@
+local url = "https://raw.githubusercontent.com/megabigbozo/gitlerhub/main/whitelist.txt"
+
+local whitelistContent = game:HttpGet(url)
+
+print(whitelistContent)
+
+function loadWhitelist()
+  local whitelist = {}
+  local file = io.open("whitelist.txt", "r")
+  if file then
+    for line in file:lines() do
+      table.insert(whitelist, line)
+    end
+    file:close()
+  end
+  return whitelist
+end
+
+function saveWhitelist(whitelist)
+  local file = io.open("whitelist.txt", "w")
+  if file then
+    for _, key in ipairs(whitelist) do
+      file:write(key .. "\n")
+    end
+    file:close()
+  end
+end
+
+local whitelist = loadWhitelist()
+
+local userInputKey = ""
+
+if table.contains(whitelist, userInputKey) then
+  _G.pidor_key = userInputKey
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/megabigbozo/gitlerhub/main/Afsxfreenew"))()
+else
+  plr:Kick("nigga cracker LLLL")
+end
+
+function table.contains(table, element)
+  for _, value in pairs(table) do
+    if value == element then
+      return true
+    end
+  end
+  return false
+end
